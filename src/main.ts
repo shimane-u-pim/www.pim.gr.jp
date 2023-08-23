@@ -10,7 +10,7 @@ const i18n_messages = {
     ja: {
         shared: {
             pim_full_name: "島根大学ものづくり部 Pim",
-            contacts: "お問い合わせ"
+            contacts: "入部・お問い合わせ"
         },
         home: {
             catch_1: '新しいものづくりのコミュニティ'
@@ -19,7 +19,7 @@ const i18n_messages = {
     en: {
         shared: {
             pim_full_name: "Shimane University Crafting Club, Pim",
-            contacts: "Contacts"
+            contacts: "Join・Contacts"
         },
         home: {
             catch_1: 'A whole new Crafting community'

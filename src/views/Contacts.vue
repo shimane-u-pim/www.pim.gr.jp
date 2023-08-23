@@ -26,12 +26,11 @@ const { t } = useI18n({ useScope: 'global' })
                     <li><i class="bi bi-envelope me-2"></i>contact &lt;<b>at</b>&gt; pim.gr.jp
                     </li>
                 </ul>
-
             </div>
             <div class="col-12 col-lg-8">
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSeJwZ_UmlvHh3KfonkARojFIhHeOP2k3Y1yTYvD1CTEi4raBA/viewform?embedded=true"
-                    width="100%" height="480" frameborder="0" marginheight="0" marginwidth="0"
+                    width="100%" height="880" frameborder="0" marginheight="0" marginwidth="0"
                     class="rounded">読み込んでいます…</iframe>
             </div>
         </div>
