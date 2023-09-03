@@ -4,6 +4,7 @@ const { t } = useI18n({ useScope: 'global' })
 import FeatureCardGridCard from '../components/FeatureCardGridCard.vue'
 import FeatureCardGridCardEmoji from '../components/FeatureCardGridCardEmoji.vue'
 import ContentHeaderRow from '../components/ContentHeaderRow.vue'
+import InformationMarquee from '../components/InformationMarquee.vue';
 </script>
 
 <template>
@@ -20,6 +21,10 @@ import ContentHeaderRow from '../components/ContentHeaderRow.vue'
         </div>
       </div>
     </ContentHeaderRow>
+    <InformationMarquee class="bg-danger text-white p-3">
+      ただいまシステムメンテナンス中です。お問い合わせフォームはご利用いただけません。
+      メンテナンス終了は2023年9月9日 (金曜日) 23:50 (JST)を予定しております。
+    </InformationMarquee>
     <div class="row pt-5">
       <FeatureCardGridCard>
         <div class="card-body">
