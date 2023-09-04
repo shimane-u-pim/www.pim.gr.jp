@@ -21,10 +21,6 @@ import InformationMarquee from '../components/InformationMarquee.vue';
         </div>
       </div>
     </ContentHeaderRow>
-    <InformationMarquee class="bg-danger text-white p-3">
-      ただいまシステムメンテナンス中です。お問い合わせフォームはご利用いただけません。
-      メンテナンス終了は2023年9月9日 (金曜日) 23:50 (JST)を予定しております。
-    </InformationMarquee>
     <div class="row pt-5">
       <FeatureCardGridCard>
         <div class="card-body">
@@ -98,5 +94,4 @@ import InformationMarquee from '../components/InformationMarquee.vue';
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
