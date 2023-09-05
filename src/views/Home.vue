@@ -4,7 +4,6 @@ const { t } = useI18n({ useScope: 'global' })
 import FeatureCardGridCard from '../components/FeatureCardGridCard.vue'
 import FeatureCardGridCardEmoji from '../components/FeatureCardGridCardEmoji.vue'
 import ContentHeaderRow from '../components/ContentHeaderRow.vue'
-import InformationMarquee from '../components/InformationMarquee.vue';
 </script>
 
 <template>
