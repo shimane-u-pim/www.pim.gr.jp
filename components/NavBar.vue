@@ -1,11 +1,3 @@
-<script lang="ts">
-/*import { Collapse } from 'bootstrap';
-document.querySelectorAll('[data-bs-toggle="collapse"]')
-    .forEach(collapse => {
-        new Collapse(collapse)
-    })*/
-</script>
-
 <template>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
