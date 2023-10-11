@@ -1,14 +1,8 @@
-<script setup lang="ts">
-import ContentHeaderRow from '../components/ContentHeaderRow.vue'
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n({ useScope: 'global' })
-</script>
-
 <template>
     <div class="container">
         <ContentHeaderRow>
             <div class="col">
-                <h1>{{ t('shared.contacts') }}</h1>
+                <h1>入部・お問い合わせ</h1>
                 <p class="mb-0">Pimへの入部・体験について、お仕事の相談、依頼などはこちらのお問い合わせフォームかメールアドレスで受け付けています。</p>
             </div>
         </ContentHeaderRow>
