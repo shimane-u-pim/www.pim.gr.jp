@@ -1,18 +1,10 @@
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n({ useScope: 'global' })
-import FeatureCardGridCard from '../components/FeatureCardGridCard.vue'
-import FeatureCardGridCardEmoji from '../components/FeatureCardGridCardEmoji.vue'
-import ContentHeaderRow from '../components/ContentHeaderRow.vue'
-</script>
-
 <template>
   <div class="container">
     <ContentHeaderRow>
       <div class="col">
         <h1 class="mb-4">
-          <img src="/static/logo/pimlogo-nosmn.svg" alt="Pim" height="40" /><br />
-          <span>{{ t('home.catch_1') }}</span>
+          <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" /><br />
+          <span>新しいものづくりのコミュニティ</span>
         </h1>
         <p class="mb-0">部員が提供する知識と技術の集合体を活用し、自らも集合体の一部になりませんか？</p>
         <div class="mt-4">

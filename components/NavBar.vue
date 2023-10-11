@@ -1,22 +1,9 @@
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n({ useScope: 'global' })
-</script>
-
-<script lang="ts">
-import { Collapse } from 'bootstrap';
-document.querySelectorAll('[data-bs-toggle="collapse"]')
-    .forEach(collapse => {
-        new Collapse(collapse)
-    })
-</script>
-
 <template>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <router-link to="/" class="navbar-brand">
-                <img src="/static/logo/pimlogo.svg" :alt="t('shared.pim_full_name')" height="24">
-            </router-link>
+            <NuxtLink to="/" class="navbar-brand">
+                <img src="/logo/pimlogo.svg" alt="島根大学ものづくり部 Pim" height="24">
+            </NuxtLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +11,7 @@ document.querySelectorAll('[data-bs-toggle="collapse"]')
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
                     <li class="nav-item">
-                        <router-link to="/contacts" class="nav-link">{{ t('shared.contacts') }}</router-link>
+                        <NuxtLink to="/contacts" class="nav-link">入部・お問い合わせ</NuxtLink>
                     </li>
                     <li class="nav-item border-end">
                     </li>
