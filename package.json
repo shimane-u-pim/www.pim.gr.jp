@@ -16,7 +16,9 @@
     },
     "dependencies": {
         "@nuxtjs/sitemap": "^5.1.2",
+        "add": "^2.0.6",
         "bootstrap": "^5.3.2",
-        "bootstrap-icons": "^1.11.1"
+        "bootstrap-icons": "^1.11.1",
+        "nuxt-microsoft-clarity": "^0.1.0"
     }
 }

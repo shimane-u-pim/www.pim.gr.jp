@@ -30,16 +30,17 @@ export default defineNuxtConfig({
         }
     },
     modules: [
-        'nuxt-gtag',
         '@nuxtjs/sitemap',
+        'nuxt-gtag',
+        'nuxt-microsoft-clarity',
     ],
-    gtag: {
-        id: 'GTM-TKDQBM2B'
-    },
-    sitemap: {
-        hostname: 'https://www.pim.gr.jp',
-    },
     site: {
         url: 'https://www.pim.gr.jp',
-    }
+    },
+    gtag: {
+        id: 'G-TEWYKXV328',
+    },
+    clarity: {
+        id: 'i4nzb2fgqy',
+    },
 })
