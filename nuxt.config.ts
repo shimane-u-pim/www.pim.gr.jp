@@ -25,7 +25,7 @@ export default defineNuxtConfig({
                 { hid: 'og:url', property: 'og:url', content: 'https://www.pim.gr.jp' },
                 { hid: 'og:title', property: 'og:title', content: '島根大学ものづくり部 Pim' },
                 { hid: 'og:description', property: 'og:description', content: 'Pimは島根大学の新しいものづくりコミュニティです。部員が提供する知識と技術の集合体を活用し、自らも集合体の一部になりませんか？' },
-                { hid: 'og:image', name: 'og:image', content: 'https://www.pim.gr.jp/logo/og_2by1.png' },
+                { hid: 'og:image', property: 'og:image', content: 'https://www.pim.gr.jp/logo/og_2by1.png' },
                 { name: 'twitter:card', content: 'summary_large_image' },
                 { name: 'twitter:site', content: '@shimane_u_Pim' },
             ]
