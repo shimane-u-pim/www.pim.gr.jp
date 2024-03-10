@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
-            title: '島根大学ものづくり部',
+            title: '島根大学ものづくり部 Pim',
             htmlAttrs: {
                 lang: 'ja',
                 prefix: 'og: http://ogp.me/ns#'
@@ -28,5 +28,18 @@ export default defineNuxtConfig({
                 { name: 'twitter:card', content: 'summary' },
             ]
         }
+    },
+    modules: [
+        'nuxt-gtag',
+        '@nuxtjs/sitemap',
+    ],
+    gtag: {
+        id: 'GTM-TKDQBM2B'
+    },
+    sitemap: {
+        hostname: 'https://www.pim.gr.jp',
+    },
+    site: {
+        url: 'https://www.pim.gr.jp',
     }
 })

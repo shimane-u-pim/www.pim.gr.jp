@@ -1,4 +1,5 @@
 <template>
-    <NavBar />
-    <NuxtPage />
+    <NuxtLayout>
+        <NuxtPage />
+    </NuxtLayout>
 </template>
