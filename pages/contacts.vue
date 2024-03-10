@@ -1,13 +1,17 @@
 <script setup lang="ts">
-useSeoMeta({
-  title: 'お問い合わせ・入部申請 - 島根大学ものづくり部 Pim',
-  ogTitle: 'お問い合わせ・入部申請 - 島根大学ものづくり部 Pim',
-  ogType: 'article',
-  ogUrl: 'https://pim.gr.jp/contacts',
+useHead({
+  meta: [
+    { hid: 'og:type', property: 'og:type', content: 'article' },
+    { hid: 'og:url', property: 'og:url', content: 'https://www.pim.gr.jp/contacts/' },
+    { hid: 'og:title', property: 'og:title', content: 'お問い合わせ・入部申請 - 島根大学ものづくり部 Pim' },
+  ],
 })
 </script>
 
 <template>
+    <Head>
+        <Title>入部・お問い合わせ - 島根大学ものづくり部 Pim</Title>
+    </Head>
     <div class="container">
         <ContentHeaderRow>
             <div class="col">
