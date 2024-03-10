@@ -28,6 +28,7 @@ export default defineNuxtConfig({
                 { hid: 'og:image', property: 'og:image', content: 'https://www.pim.gr.jp/logo/og_2by1.png' },
                 { name: 'twitter:card', content: 'summary_large_image' },
                 { name: 'twitter:site', content: '@shimane_u_Pim' },
+                { property: 'fb:app_id', content: '773020421405406' },
             ]
         }
     },
