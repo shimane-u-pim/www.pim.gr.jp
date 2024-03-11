@@ -28,6 +28,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/Shimane.Pim" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                            <span class="visually-hidden">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://www.youtube.com/channel/UCKcFtXDUQGi-z3DKBasYjMQ" target="_blank">
                             <i class="bi bi-youtube"></i>
                             <span class="visually-hidden">YouTube</span>
