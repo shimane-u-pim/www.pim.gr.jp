@@ -1,8 +1,5 @@
-<script setup lang="ts">
-</script>
-
 <template>
-    <div class="row pt-5 pb-3 mb-3" data-content-header-row>
+    <div class="row pt-5 pb-5" data-content-header-row>
         <slot></slot>
     </div>
     <div class="row border-bottom mb-4"></div>

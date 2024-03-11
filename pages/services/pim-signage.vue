@@ -9,12 +9,16 @@ useHead({
 </script>
 
 <template>
-    <Head>
-        <Title>Pim サイネージ - 島根大学ものづくり部 Pim</Title>
-    </Head>
+  <Head>
+    <Title>Pim サイネージ - 島根大学ものづくり部 Pim</Title>
+   </Head>
+  <div class="alert alert-info mb-0" role="alert">
+    本サービスは学内の部・サークル活動のみを対象としています。
+    学外の方は、<a href="https://www.ds.shimane-u.ac.jp/company/" class="alert-link" target="_blank">数理・データサイエンス教育研究センター</a>の提供するサービスをご利用ください。
+  </div>
   <div class="container">
-    <ContentHeaderRow>
-      <div class="col top-bg-gradation">
+    <ContentHeaderRowGradient>
+      <div class="col">
         <h1 class="mb-4">
           <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" /><br />
           <span>サイネージ</span>
@@ -25,7 +29,7 @@ useHead({
           <router-link class="btn btn-outline-primary" to="/contacts" role="button">お問い合わせ</router-link>
         </div>
       </div>
-    </ContentHeaderRow>
+    </ContentHeaderRowGradient>
     <!--<div class="row text-center pt-3">
       <h2>皆様の声</h2>
     </div>
@@ -38,10 +42,22 @@ useHead({
         </div>
       </FeatureCardGridCard>
     </div>-->
-    <div class="row text-center pt-3">
+    <div class="row pt-4 mt-4 pb-5 border-bottom">
+      <div class="col-12 col-lg-5">
+        <h2>実際の掲載例</h2>
+        <p>
+          　画像のような表示になります。
+          掲載される画像は、部・サークルの活動内容や勧誘活動に合わせて、部・サークルの皆様で作成いただくことができます。
+        </p>
+      </div>
+      <div class="col-12 col-lg-7">
+        <img src="/img/services/pim-signage/board1.jpg" alt="実際の掲載例" width="100%">
+      </div>
+    </div>
+    <div class="row text-center pt-3 mt-3">
       <h2>プラン</h2>
     </div>
-    <div class="row pt-4">
+    <div class="row mt-3">
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>⚡️</FeatureCardGridCardEmoji>
@@ -74,11 +90,50 @@ useHead({
         </div>
       </FeatureCardGridCard>
     </div>
+    <div class="row text-center mt-5 pt-5 mb-3 border-top">
+      <h2>コンテンツ作成サービス</h2>
+    </div>
+    <div class="row pt-4">
+      <FeatureCardGridCard>
+        <div class="card-body">
+          <FeatureCardGridCardEmoji>📁</FeatureCardGridCardEmoji>
+          <h5 class="card-title">持ち込み</h5>
+          <p class="card-text">
+            ご自身で作成した画像や動画を持ち込んでいただくプランです。
+            画像や動画のフォーマットについては、<a href="#tech-info">技術仕様</a>をご確認ください。
+          </p>
+        </div>
+      </FeatureCardGridCard>
+      <FeatureCardGridCard>
+        <div class="card-body">
+          <FeatureCardGridCardEmoji>🤖</FeatureCardGridCardEmoji>
+          <h5 class="card-title">簡易生成</h5>
+          <p class="card-text">
+            任意の写真1枚とキャッチ文章、ホームページなどの任意のリンクをお伝えいただくことで、弊部で簡易的なコンテンツを作成いたします。
+          </p>
+          <p class="card-text">
+            1枚当たり500円
+          </p>
+        </div>
+      </FeatureCardGridCard>
+      <FeatureCardGridCard>
+        <div class="card-body">
+          <FeatureCardGridCardEmoji>👤</FeatureCardGridCardEmoji>
+          <h5 class="card-title">デザイナー依頼制作</h5>
+          <p class="card-text">
+            素材を基に、弊部でデザイナーに依頼し、コンテンツを作成いたします。
+          </p>
+          <p class="card-text">
+            費用は別途お見積りいたします。
+          </p>
+        </div>
+      </FeatureCardGridCard>
+    </div>
     <div class="row mt-5 pt-5 mb-5 border-top">
         <div class="col text-center">
             <h2>費用について</h2>
             <p>
-                試験プロジェクトのため、掲載費は無償になります。
+                試験プロジェクトのため、2024年度前期の掲載費は無償になります。
             </p>
         </div>
     </div>
@@ -94,7 +149,7 @@ useHead({
         </div>
       </div>
     </div>
-    <div class="row mt-5 pt-5 border-top">
+    <div class="row mt-5 pt-5 border-top" id="tech-info">
         <div class="col text-center">
             <h2>技術仕様</h2>
         </div>
@@ -146,10 +201,6 @@ useHead({
 </template>
 
 <style scoped>
-.top-bg-gradation {
-    background: linear-gradient(45deg, #fdd, #fed, #ffd, #dfd, #ddf);
-}
-
 h1 .badge {
     margin-left: 15px;
     font-size: 11pt;
