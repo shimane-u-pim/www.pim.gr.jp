@@ -78,7 +78,7 @@
           まずはSNSで告知されている活動を体験してみませんか？
         </p>
         <div class="mt-4">
-          <iframe src="https://calendar.google.com/calendar/embed?src=pim.shimane%40gmail.com&ctz=Asia%2FTokyo" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+          <iframe src="https://calendar.google.com/calendar/embed?src=e321b77a3f2af12b1bd882362f40c3c614ddecc7ac7ed73d68463eab77c4009c%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="mt-4">
           <router-link class="btn btn-outline-primary" to="/contacts" role="button">入部する</router-link>
