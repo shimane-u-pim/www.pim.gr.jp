@@ -4,6 +4,8 @@ useHead({
     { hid: 'og:type', property: 'og:type', content: 'article' },
     { hid: 'og:url', property: 'og:url', content: 'https://www.pim.gr.jp/services/pim-signage/' },
     { hid: 'og:title', property: 'og:title', content: 'Pim サイネージサービス - 島根大学ものづくり部 Pim' },
+    { hid: 'og:image', property: 'og:image', content: 'https://www.pim.gr.jp/img/services/pim-signage/ad202403-1.png' },
+    { name: 'twitter:card', content: 'summary_large_image' },
   ],
 })
 </script>
