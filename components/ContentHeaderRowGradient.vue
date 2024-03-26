@@ -5,11 +5,13 @@
     <div class="row mb-4"></div>
 </template>
 
-<style>
+<style scoped>
 .top-bg-gradation {
     background: linear-gradient(45deg, #fdd, #fed, #ffd, #dfd, #ddf);
 }
+</style>
 
+<style>
 .row[data-content-header-row]>div.col {
     padding: 2rem;
 }
