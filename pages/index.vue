@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <ContentHeaderRow>
+    <ContentHeaderRowGradientSpring>
       <div class="col">
         <h1 class="mb-4">
           <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" /><br />
@@ -12,7 +12,7 @@
           <router-link class="btn btn-outline-secondary" to="/contacts" role="button">お問い合わせ</router-link>
         </div>
       </div>
-    </ContentHeaderRow>
+    </ContentHeaderRowGradientSpring>
     <div class="row pt-5">
       <FeatureCardGridCard>
         <div class="card-body">
