@@ -69,6 +69,13 @@
           <p class="card-text">大学生活に欠かせないパソコンをこだわって作ってみませんか</p>
         </div>
       </FeatureCardGridCard>
+      <FeatureCardGridCard>
+        <div class="card-body">
+          <FeatureCardGridCardEmoji>💎</FeatureCardGridCardEmoji>
+          <h5 class="card-title">UVレジン</h5>
+          <p class="card-text">UVレジンを使って透明感のあるアクセサリーを製作してみませんか？</p>
+        </div>
+      </FeatureCardGridCard>
     </div>
     <div class="row mt-5 pt-5 mb-5 border-top">
       <div class="col text-center">
