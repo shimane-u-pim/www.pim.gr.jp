@@ -8,3 +8,12 @@
         </div>
     </div>
 </template>
+
+<style>
+h5 {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+</style>

@@ -29,6 +29,11 @@ export default defineNuxtConfig({
                 { name: 'twitter:card', content: 'summary_large_image' },
                 { name: 'twitter:site', content: '@shimane_u_Pim' },
                 { property: 'fb:app_id', content: '773020421405406' },
+            ],
+            link: [
+                { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+                { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+                { href: 'https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Sawarabi+Gothic&family=Noto+Sans+JP:wght@400&display=swap', rel: 'stylesheet' },
             ]
         }
     },
