@@ -6,7 +6,7 @@
           <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" /><br />
           <span>新しいものづくりのコミュニティ</span>
         </h1>
-        <p class="mb-0">部員が提供する知識と技術の集合体を活用し、自らも集合体の一部になりませんか？</p>
+        <p class="mb-0">ものづくりに関する知識と技術を共有する、島根大学公認の部活動です。</p>
         <div class="mt-4">
           <router-link class="btn btn-outline-primary" to="/contacts" role="button">入部する</router-link>
         </div>
