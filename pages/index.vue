@@ -6,9 +6,10 @@
           <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" /><br />
           <span>新しいものづくりのコミュニティ</span>
         </h1>
-        <p class="mb-0">部員が提供する知識と技術の集合体を活用し、自らも集合体の一部になりませんか？</p>
+        <p class="mb-0">ものづくりに関する知識と技術を共有する、島根大学公認の部活動です。</p>
         <div class="mt-4">
-          <router-link class="btn btn-outline-primary" to="/contacts" role="button">入部する</router-link>
+          <router-link class="btn btn-outline-primary me-2" to="/contacts" role="button">入部する</router-link>
+          <router-link class="btn btn-outline-secondary" to="/contacts" role="button">お問い合わせ</router-link>
         </div>
       </div>
     </ContentHeaderRow>
@@ -88,7 +89,8 @@
           <iframe src="https://calendar.google.com/calendar/embed?src=e321b77a3f2af12b1bd882362f40c3c614ddecc7ac7ed73d68463eab77c4009c%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="mt-4">
-          <router-link class="btn btn-outline-primary" to="/contacts" role="button">入部する</router-link>
+          <router-link class="btn btn-outline-primary me-2" to="/contacts" role="button">入部する</router-link>
+          <router-link class="btn btn-outline-secondary" to="/contacts" role="button">お問い合わせ</router-link>
         </div>
       </div>
     </div>
