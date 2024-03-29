@@ -16,7 +16,7 @@ div {
     background-color: black;
 }
 img {
-    max-height: 25vh;
+    max-height: 50vh;
     object-fit: contain;
     background-color: black;
 }
