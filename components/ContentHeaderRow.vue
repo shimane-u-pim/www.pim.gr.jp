@@ -9,10 +9,4 @@
 .row[data-content-header-row]>div.col {
     padding: 2rem;
 }
-h1 {
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
 </style>
