@@ -46,7 +46,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🥽</FeatureCardGridCardEmoji>
           <h5 class="card-title">VR</h5>
-          <p class="card-text">従来の四角い画面の枠を飛び出し、周囲の空間がデジタルコンテンツの場になります。仮想空間への没入体験や、パソコンの新たな使い方を模索しませんか？</p>
+          <p class="card-text">四角い画面の枠を超えた、空間全体がコンテンツになる未来を作ってみませか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
