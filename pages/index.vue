@@ -67,7 +67,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🖥️</FeatureCardGridCardEmoji>
           <h5 class="card-title">自作パソコン</h5>
-          <p class="card-text">大学生活に欠かせないパソコン。よりハイパワーで便利なものが欲しくないですか？</p>
+          <p class="card-text">あなたのパフォーマンスを最大限引き出せるオリジナルパソコンで、大学生活をより楽しみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
