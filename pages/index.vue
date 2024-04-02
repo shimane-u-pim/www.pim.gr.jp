@@ -18,42 +18,42 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>⚡️</FeatureCardGridCardEmoji>
           <h5 class="card-title">電子工作</h5>
-          <p class="card-text">自分だけの新たなデバイスを作り、より豊かで快適な生活を送りませんか？</p>
+          <p class="card-text">自分だけの便利グッズや、愉快なデバイスを、「無いなら作ろう」の心構えでパッと作ってみましょう。</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>🎞️</FeatureCardGridCardEmoji>
           <h5 class="card-title">動画編集</h5>
-          <p class="card-text">浮かんだインスピレーションをそのまま動画素材として世界と共有してみましょう</p>
+          <p class="card-text">浮かんだインスピレーションをそのまま動画素材として世界と共有してみましょう。</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>🦖</FeatureCardGridCardEmoji>
           <h5 class="card-title">3D プリント作品</h5>
-          <p class="card-text">ちょっとした小物が欲しいなら、一度3Dプリンタで作ってみましょう。手軽に様々な小道具を作成可能です。</p>
+          <p class="card-text">ちょっとした小物や試作品を作ってみましょう。3Dプリンタはあなたのものづくり活動を加速します。</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>⌨</FeatureCardGridCardEmoji>
           <h5 class="card-title">自作キーボード</h5>
-          <p class="card-text">コンピュータを使う上で欠かせないキーボードを少しこだわって作ってみませんか？</p>
+          <p class="card-text">機能性や見た目にこだわって、世界に一つだけの自分専用のキーボードを作ってみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>🥽</FeatureCardGridCardEmoji>
           <h5 class="card-title">VR</h5>
-          <p class="card-text">VR技術で、これまでにない新たなもう1つの世界を体験し、仮想世界を作り上げてみませんか？</p>
+          <p class="card-text">従来の四角い画面の枠を飛び出し、周囲の空間がデジタルコンテンツの場になります。仮想空間への没入体験や、パソコンの新たな使い方を模索しませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>🧑‍🤝‍🧑</FeatureCardGridCardEmoji>
           <h5 class="card-title">メタバース</h5>
-          <p class="card-text">仮想空間を設計し、コミュニティの場を設計をしてみませんか？</p>
+          <p class="card-text">仮想世界の部屋をデザインし、家にいながら仲間と交流できる場を作ってみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
@@ -67,7 +67,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🖥️</FeatureCardGridCardEmoji>
           <h5 class="card-title">自作パソコン</h5>
-          <p class="card-text">大学生活に欠かせないパソコンをこだわって作ってみませんか</p>
+          <p class="card-text">大学生活に欠かせないパソコン。よりハイパワーで便利なものが欲しくないですか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
