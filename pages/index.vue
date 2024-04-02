@@ -53,7 +53,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🧑‍🤝‍🧑</FeatureCardGridCardEmoji>
           <h5 class="card-title">メタバース</h5>
-          <p class="card-text">仮想世界の部屋をデザインし、家にいながら仲間と交流できる場を作ってみませんか？</p>
+          <p class="card-text">仮想世界上で家にいながら仲間と交流したり、自分オリジナルの世界をデザインしてみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
