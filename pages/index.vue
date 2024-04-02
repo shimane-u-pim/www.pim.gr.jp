@@ -18,7 +18,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>⚡️</FeatureCardGridCardEmoji>
           <h5 class="card-title">電子工作</h5>
-          <p class="card-text">自分だけの便利グッズや、愉快なデバイスを、「無いなら作ろう」の心構えでパッと作ってみましょう。</p>
+          <p class="card-text">自分だけの便利グッズや、愉快なデバイスを、「無いなら作ろう」の心構えで思うがままに作ってみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
@@ -39,7 +39,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>⌨</FeatureCardGridCardEmoji>
           <h5 class="card-title">自作キーボード</h5>
-          <p class="card-text">機能性や見た目にこだわって、世界に一つだけの自分専用のキーボードを作ってみませんか？</p>
+          <p class="card-text">機能性や見た目にこだわって、自分専用のオーダーメイドキーボードを作ってみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
