@@ -45,7 +45,7 @@
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>🥽</FeatureCardGridCardEmoji>
-          <h5 class="card-title">VR</h5>
+          <h5 class="card-title">VR/XR</h5>
           <p class="card-text">四角い画面の枠を超えた、空間全体がコンテンツになる未来を作ってみませか？</p>
         </div>
       </FeatureCardGridCard>
