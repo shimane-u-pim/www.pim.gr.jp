@@ -32,7 +32,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🦖</FeatureCardGridCardEmoji>
           <h5 class="card-title">3D プリント作品</h5>
-          <p class="card-text">ちょっとした小物や試作品を作ってみましょう。3Dプリンタはあなたのものづくり活動を加速します。</p>
+          <p class="card-text">3Dプリンタでちょっとした小物や試作品を作り、あなたのものづくり活動を加速しましょう。</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
