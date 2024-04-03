@@ -81,7 +81,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🌎</FeatureCardGridCardEmoji>
           <h5 class="card-title">Webサイト製作</h5>
-          <p class="card-text">自分専用のサイトを作り、知識やポートフォリオを共有しませんか？</p>
+          <p class="card-text">自分オリジナルのサイトを作り、知識やポートフォリオを共有しませんか？</p>
           <router-link class="btn btn-outline-primary" to="/with_pim/web" role="button">詳細</router-link>
         </div>
       </FeatureCardGridCard>
