@@ -89,7 +89,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🎵</FeatureCardGridCardEmoji>
           <h5 class="card-title">作曲・DTM</h5>
-          <p class="card-text">インスピレーションにしたがい音を組み合わせ、オリジナル楽曲を作ってみませんか？</p>
+          <p class="card-text">インスピレーションに従って音を組み合わせて、オリジナル楽曲を作ってみませんか？</p>
           <router-link class="btn btn-outline-primary" to="/with_pim/dtm" role="button">詳細</router-link>
         </div>
       </FeatureCardGridCard>
