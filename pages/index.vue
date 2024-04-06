@@ -18,7 +18,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>⚡️</FeatureCardGridCardEmoji>
           <h5 class="card-title">電子工作</h5>
-          <p class="card-text">自分だけの便利グッズや、愉快なデバイスを、「無いなら作ろう」の心構えで思うがままに作ってみませんか？</p>
+          <p class="card-text">自分だけの便利グッズや愉快なデバイスを、「無いなら作ろう」の心構えで思うがままに作ってみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
@@ -32,7 +32,7 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🦖</FeatureCardGridCardEmoji>
           <h5 class="card-title">3D プリント作品</h5>
-          <p class="card-text">3Dプリンタでちょっとした小物や試作品を作り、あなたのものづくり活動を加速しましょう。</p>
+          <p class="card-text">3Dプリンタでちょっとした小物や試作品を作り、あなたのものづくり活動を加速させましょう。</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
@@ -46,21 +46,21 @@
         <div class="card-body">
           <FeatureCardGridCardEmoji>🥽</FeatureCardGridCardEmoji>
           <h5 class="card-title">VR/XR</h5>
-          <p class="card-text">四角い画面の枠を超えた、空間全体がコンテンツになる未来を作ってみませか？</p>
+          <p class="card-text">四角い画面の枠を超えた、空間全体がコンテンツになる未来を作ってみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>🧑‍🤝‍🧑</FeatureCardGridCardEmoji>
           <h5 class="card-title">メタバース</h5>
-          <p class="card-text">仮想世界上で家にいながら仲間と交流したり、自分オリジナルの世界をデザインしてみませんか？</p>
+          <p class="card-text">仮想世界上で家にいながら仲間と交流したり、自分オリジナルの世界をデザインしたりしてみませんか？</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>🤖</FeatureCardGridCardEmoji>
           <h5 class="card-title">プログラミング</h5>
-          <p class="card-text">コンピュータを使ってる際に現れる「ちょっと使いづらい」を自分の力で解決しましょう</p>
+          <p class="card-text">コンピュータを使っている際に現れる「ちょっと使いづらい」を自分の力で解決しましょう。</p>
         </div>
       </FeatureCardGridCard>
       <FeatureCardGridCard>
