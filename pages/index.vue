@@ -77,6 +77,22 @@
           <p class="card-text">UVレジンを使って透明感のあるアクセサリーを製作してみませんか？</p>
         </div>
       </FeatureCardGridCard>
+      <FeatureCardGridCard>
+        <div class="card-body">
+          <FeatureCardGridCardEmoji>🌎</FeatureCardGridCardEmoji>
+          <h5 class="card-title">Webサイト製作</h5>
+          <p class="card-text">自分オリジナルのサイトを作り、知識やポートフォリオを共有しませんか？</p>
+          <router-link class="btn btn-outline-primary" to="/with_pim/web" role="button">詳細</router-link>
+        </div>
+      </FeatureCardGridCard>
+      <FeatureCardGridCard>
+        <div class="card-body">
+          <FeatureCardGridCardEmoji>🎵</FeatureCardGridCardEmoji>
+          <h5 class="card-title">作曲・DTM</h5>
+          <p class="card-text">インスピレーションに従って音を組み合わせて、オリジナル楽曲を作ってみませんか？</p>
+          <router-link class="btn btn-outline-primary" to="/with_pim/dtm" role="button">詳細</router-link>
+        </div>
+      </FeatureCardGridCard>
     </div>
     <div class="row mt-5 pt-5 mb-5 border-top">
       <div class="col text-center">
