@@ -46,7 +46,7 @@ useHead({
                     </div>
                     <div class="inquiry">
                         <label for="inquiry">お問い合わせ内容: </label>
-                        <input type="text" name="inquiry" id="inquiry" required />
+                        <textarea name="inquiry" id="inquiry"></textarea>
                     </div>
                     <div class="cf-turnstile" data-sitekey="0x4AAAAAAAebPItjBa5RF5k7" data-callback="javascriptCallback"></div>
                 </form>
