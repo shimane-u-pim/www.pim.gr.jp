@@ -39,20 +39,20 @@ useHead({
             </div>
             <div class="col-12 col-lg-8">
                 <form action="https://contact.pim-shimane.workers.dev/submit" method="POST" enctype="multipart/form-data">
-                    <div>
-                        <label for="email">メールアドレス: </label>
-                        <input type="email" name="email" id="email" required />
+                    <div class="mb-3">
+                        <label for="email" class="form-label">メールアドレス: </label>
+                        <input type="email" name="email" id="email" required class="form-control"/>
                     </div>
-                    <div>
-                        <label for="name">お名前: </label>
-                        <input type="text" name="name" id="name" required />
+                    <div class="mb-3">
+                        <label for="name" class="form-label">お名前: </label>
+                        <input type="text" name="name" id="name" required class="form-control" />
                     </div>
-                    <div>
-                        <label for="inquiry">お問い合わせ内容: </label>
-                        <textarea name="content" id="inquiry" required>なにを問い合わせますか？</textarea>
+                    <div class="mb-3">
+                        <label for="inquiry" class="form-label">お問い合わせ内容: </label>
+                        <textarea name="content" id="inquiry" required class="form-control" ></textarea>
                     </div>
                     <div class="cf-turnstile" data-sitekey="0x4AAAAAAAebPItjBa5RF5k7" data-callback="javascriptCallback"></div>
-                    <button type="submit">
+                    <button type="submit" class="btn btn-primary">
                         送信
                     </button>
                 </form>
