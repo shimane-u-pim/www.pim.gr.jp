@@ -5,6 +5,9 @@ useHead({
     { hid: 'og:url', property: 'og:url', content: 'https://www.pim.gr.jp/contacts/' },
     { hid: 'og:title', property: 'og:title', content: 'お問い合わせ・入部申請 - 島根大学ものづくり部 Pim' },
   ],
+  script: [
+    { src: 'https://challenges.cloudflare.com/turnstile/v0/api.js' },
+  ],
 })
 </script>
 
@@ -35,24 +38,24 @@ useHead({
                 </ul>
             </div>
             <div class="col-12 col-lg-8">
-                <form action="https://contact.pim-shimane.workers.dev/submit" method="POST" class="contact-form" enctype="multipart/form-data">
-                    <div class="mail">
+                <form action="https://contact.pim-shimane.workers.dev/submit" method="POST" enctype="multipart/form-data">
+                    <div>
                         <label for="email">メールアドレス: </label>
                         <input type="email" name="email" id="email" required />
                     </div>
-                    <div class="name">
+                    <div>
                         <label for="name">お名前: </label>
                         <input type="text" name="name" id="name" required />
                     </div>
-                    <div class="inquiry">
+                    <div>
                         <label for="inquiry">お問い合わせ内容: </label>
-                        <textarea name="inquiry" id="inquiry"></textarea>
+                        <textarea name="content" id="inquiry" required>なにを問い合わせますか？</textarea>
                     </div>
                     <div class="cf-turnstile" data-sitekey="0x4AAAAAAAebPItjBa5RF5k7" data-callback="javascriptCallback"></div>
+                    <button type="submit">
+                        送信
+                    </button>
                 </form>
-                <div class="turnstile">
-                    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-                </div>
             </div>
         </div>
     </div>
