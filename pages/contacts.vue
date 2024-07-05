@@ -22,7 +22,7 @@ useHead({
                 <p class="mb-0">Pimへの入部・体験について、お仕事の相談、依頼などはこちらのお問い合わせフォームかメールアドレスで受け付けています。</p>
             </div>
         </ContentHeaderRow>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-12 col-lg-4" style="margin-bottom: 35px;">
                 <p>
                     入部・体験希望についてのお問い合わせは、
