@@ -35,7 +35,7 @@ useHead({
                 </ul>
             </div>
             <div class="col-12 col-lg-8">
-                <form action="" method="POST" class="contact-form">
+                <form action="https://contact.pim-shimane.workers.dev/submit" method="POST" class="contact-form" enctype="multipart/form-data">
                     <div class="mail">
                         <label for="email">メールアドレス: </label>
                         <input type="email" name="email" id="email" required />
@@ -48,7 +48,11 @@ useHead({
                         <label for="inquiry">お問い合わせ内容: </label>
                         <input type="text" name="inquiry" id="inquiry" required />
                     </div>
+                    <div class="cf-turnstile" data-sitekey="0x4AAAAAAAebPItjBa5RF5k7" data-callback="javascriptCallback"></div>
                 </form>
+                <div class="turnstile">
+                    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                </div>
             </div>
         </div>
     </div>
