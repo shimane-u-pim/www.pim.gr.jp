@@ -35,10 +35,20 @@ useHead({
                 </ul>
             </div>
             <div class="col-12 col-lg-8">
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSeJwZ_UmlvHh3KfonkARojFIhHeOP2k3Y1yTYvD1CTEi4raBA/viewform?embedded=true"
-                    width="100%" height="880" frameborder="0" marginheight="0" marginwidth="0"
-                    class="rounded">読み込んでいます…</iframe>
+                <form action="" method="POST" class="contact-form">
+                    <div class="mail">
+                        <label for="email">メールアドレス: </label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+                    <div class="name">
+                        <label for="name">お名前: </label>
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <div class="inquiry">
+                        <label for="inquiry">お問い合わせ内容: </label>
+                        <input type="text" name="inquiry" id="inquiry" required />
+                    </div>
+                </form>
             </div>
         </div>
     </div>
