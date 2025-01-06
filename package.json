@@ -12,7 +12,7 @@
     "devDependencies": {
         "@nuxt/devtools": "latest",
         "nuxt": "^3.10.3",
-        "nuxt-gtag": "^2.0.5"
+        "nuxt-gtag": "^3.0.2"
     },
     "dependencies": {
         "@nuxtjs/sitemap": "^5.1.2",
