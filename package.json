@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "@nuxt/devtools": "2.4.1",
-        "nuxt": "3.17.4",
+        "nuxt": "3.17.5",
         "nuxt-gtag": "3.0.2"
     },
     "dependencies": {
