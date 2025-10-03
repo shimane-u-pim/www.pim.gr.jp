@@ -2,7 +2,7 @@
     <footer class="border-top bg-secondary text-white p-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 text-center mt-4">
+                <div class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center">
                     <img src="/logo/pimlogo-white.svg" alt="島根大学ものづくり部 Pim" class="mx-auto d-block" style="max-height: 4rem;">
                 </div>
                 <div class="col-12 col-md-6 mt-3">
