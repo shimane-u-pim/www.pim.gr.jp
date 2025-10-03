@@ -93,6 +93,14 @@
           <router-link class="btn btn-outline-primary" to="/with_pim/dtm" role="button">詳細</router-link>
         </div>
       </FeatureCardGridCard>
+      <FeatureCardGridCard>
+        <div class="card-body">
+          <FeatureCardGridCardEmoji>🖧</FeatureCardGridCardEmoji>
+          <h5 class="card-title">サーバ・NWの設計・管理</h5>
+          <p class="card-text">情報化社会の基幹インフラであるサーバとネットワークの保守管理と設計・実装を行いませんか？</p>
+          <a class="btn btn-outline-primary" href="https://sysadmin.pim.gr.jp/" role="button">シス管公式サイト</a>
+        </div>
+      </FeatureCardGridCard>
     </div>
     <div class="row mt-5 pt-5 mb-5 border-top">
       <div class="col text-center">
