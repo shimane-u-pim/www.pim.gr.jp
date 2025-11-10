@@ -17,7 +17,7 @@
     "dependencies": {
         "@nuxtjs/sitemap": "7.4.3",
         "add": "2.0.6",
-        "bootstrap": "5.3.7",
+        "bootstrap": "5.3.8",
         "bootstrap-icons": "1.13.1",
         "nuxt-microsoft-clarity": "0.1.0"
     }
