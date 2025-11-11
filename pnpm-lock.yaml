@@ -31,8 +31,8 @@ importers:
         specifier: 4.2.1
         version: 4.2.1(@netlify/blobs@9.1.2)(@parcel/watcher@2.5.1)(@types/node@22.15.30)(@vue/compiler-sfc@3.5.24)(db0@0.3.4)(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.2)(terser@5.44.1)(typescript@5.8.3)(vite@7.2.2(@types/node@22.15.30)(jiti@2.6.1)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
       nuxt-gtag:
-        specifier: 3.0.3
-        version: 3.0.3(magicast@0.5.1)
+        specifier: 4.1.0
+        version: 4.1.0(magicast@0.5.1)
 
 packages:
 
@@ -2306,8 +2306,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt-gtag@3.0.3:
-    resolution: {integrity: sha512-1XZc9I3DiF2GC07P7uQOlGN4v1cbnLwWHaQUIlayp4pg0h7wOrna5Nl733/2rXq7ktPL3fT8NBJR7OsV9BtJRA==}
+  nuxt-gtag@4.1.0:
+    resolution: {integrity: sha512-2TL7RUA8N8NYGbY4UZ9IqKyMZMgO9cCGu6yqadUU8RF+Y81PXI+k+1giIA11XXStaJoGXaXeNsBUIJXn1tUy3A==}
 
   nuxt-microsoft-clarity@0.1.0:
     resolution: {integrity: sha512-iahjXdUPktt46SWrKGRo/VQp3VEncT9E1+Pq03MnSOtnH1a8dap5c+ThsUEx92XxeE8dw/xxEoU2wtcbCkW6dA==}
@@ -3828,7 +3828,7 @@ snapshots:
 
   '@nuxt/devtools-kit@2.6.2(magicast@0.5.1)(vite@7.2.2(@types/node@22.15.30)(jiti@2.6.1)(terser@5.44.1)(yaml@2.8.1))':
     dependencies:
-      '@nuxt/kit': 3.20.1(magicast@0.5.1)
+      '@nuxt/kit': 3.17.6(magicast@0.5.1)
       execa: 8.0.1
       vite: 7.2.2(@types/node@22.15.30)(jiti@2.6.1)(terser@5.44.1)(yaml@2.8.1)
     transitivePeerDependencies:
@@ -5909,9 +5909,9 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt-gtag@3.0.3(magicast@0.5.1):
+  nuxt-gtag@4.1.0(magicast@0.5.1):
     dependencies:
-      '@nuxt/kit': 3.17.6(magicast@0.5.1)
+      '@nuxt/kit': 4.2.1(magicast@0.5.1)
       defu: 6.1.4
       pathe: 2.0.3
       ufo: 1.6.1
@@ -5937,7 +5937,7 @@ snapshots:
 
   nuxt-site-config@3.2.2(magicast@0.5.1)(vue@3.5.24(typescript@5.8.3)):
     dependencies:
-      '@nuxt/kit': 3.20.1(magicast@0.5.1)
+      '@nuxt/kit': 3.17.6(magicast@0.5.1)
       nuxt-site-config-kit: 3.2.2(magicast@0.5.1)(vue@3.5.24(typescript@5.8.3))
       pathe: 2.0.3
       pkg-types: 2.3.0
