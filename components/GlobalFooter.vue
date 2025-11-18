@@ -8,8 +8,9 @@
                 <div class="col-12 col-md-6 mt-3">
                     <ul>
                         <li><NuxtLink to="/contacts" class=text-white>お問い合わせ</NuxtLink></li>
-                        <li><a href="https://policy.pim.gr.jp/regulation/" class="text-white">会則</a></li>
-                        <li><a href="https://policy.pim.gr.jp/" class="text-white">Pim ポリシーサーバ</a></li>
+                        <li><a href="https://policy.pim.gr.jp/regulation/" target="_blank" rel="noopener noreferrer" class="text-white">会則</a></li>
+                        <li><a href="https://policy.pim.gr.jp/" target="_blank" rel="noopener noreferrer" class="text-white">Pim ポリシーサーバ</a></li>
+                        <li><a href="https://status.pim.gr.jp/" target="_blank" rel="noopener noreferrer" class="text-white">システムステータス</a></li>
                         <li><NuxtLink to="/system-link" class="text-white">外部システム向けリンク</NuxtLink></li>
                     </ul>
                 </div>
