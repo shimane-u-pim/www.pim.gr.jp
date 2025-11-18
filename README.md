@@ -85,13 +85,13 @@ pnpm install
 開発サーバはリアルタイムで変更を可視化してくれます。下記コマンドで開発サーバを開くことが出来ます。
 
 ```bash
-pnpm dev
+pnpm run dev
 ```
 
 また、開発終了後は必ず次の2コマンドでコードの検証を行ってください。
 開発サーバではTSファイルの検証などが怠惰に行われるため、本番環境でエラーを吐く場合があります。
 
 ```bash
-pnpm lint
-pnpm generate
+pnpm run lint
+pnpm run generate
 ```
