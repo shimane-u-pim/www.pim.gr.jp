@@ -45,11 +45,7 @@ export default defineNuxtConfig({
             ]
         }
     },
-    modules: [
-        '@nuxtjs/sitemap',
-        'nuxt-gtag',
-        'nuxt-microsoft-clarity',
-    ],
+    modules: ['@nuxtjs/sitemap', 'nuxt-gtag', 'nuxt-microsoft-clarity', '@nuxt/eslint'],
     site: {
         url: 'https://www.pim.gr.jp',
     },
