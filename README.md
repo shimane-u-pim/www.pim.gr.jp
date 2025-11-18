@@ -43,11 +43,12 @@ CIでは、Node.jsの`latest`と、`packages.json`に記述されたバージョ
 
 ## お問い合わせフォームについて
 
-お問い合わせフォームはサーバーサイド(Cloudflare Wokers)で処理し、受け取ったメッセージをWebhookを利用してチャットシステムに送信することで実装しています。
+お問い合わせフォームはサーバーサイド(not Client JavaScript)で処理し、受け取ったメッセージをWebhookを利用してチャットシステムに送信することで実装しています。
 詳細は https://github.com/shimane-u-pim/www.pim.gr.jp-contact-form を参照してください。
 現状、閲覧には`sysadmin`ロールか、`website`ロールが必要です。
 
-Cloudflare Workersの無料枠から外れることは無いと思いますが、もしあった場合はフォームを一時的に無効化し、
+このフォームではCloudflare Workersを利用しています。
+無料枠から外れることは無いと思いますが、もしあった場合はフォームを一時的に無効化し、
 メールのみの受付にするなどの対応をお願い致します。
 
 また、人間認証（Captcha）にはCloudflareのTurnstileを利用しています。
