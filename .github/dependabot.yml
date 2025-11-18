@@ -11,3 +11,10 @@ updates:
       interval: "weekly"
     assignees:
       - "minerva-jupiter"
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    assignees:
+      - "minerva-jupiter"

@@ -1,7 +1,7 @@
 <template>
     <div class="mq-container">
         <div class="mq-text">
-            <slot></slot>
+            <slot/>
         </div>
     </div>
 </template>

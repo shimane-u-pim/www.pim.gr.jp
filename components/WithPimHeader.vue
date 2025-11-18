@@ -1,13 +1,19 @@
 <script setup lang="ts">
-const props = defineProps({
-    image: String,
-    imageAlt: String,
+defineProps({
+    image: {
+        type: [String],
+        required: true,
+    },
+    imageAlt: {
+        type: String,
+        required: true,
+    },
 });
 </script>
 
 <template>
     <div>
-        <img :src="image" :alt="imageAlt" class="img-fluid mx-auto d-block" />
+        <img :src="image" :alt="imageAlt" class="img-fluid mx-auto d-block" >
     </div>
 </template>
 
