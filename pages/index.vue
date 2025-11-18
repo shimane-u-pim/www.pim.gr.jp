@@ -98,7 +98,10 @@
           <FeatureCardGridCardEmoji>🖧</FeatureCardGridCardEmoji>
           <h5 class="card-title">サーバ・NWの設計・管理</h5>
           <p class="card-text">情報化社会の基幹インフラであるサーバとネットワークの保守管理と設計・実装を行いませんか？</p>
-          <a class="btn btn-outline-primary" href="https://sysadmin.pim.gr.jp/" role="button">シス管公式サイト</a>
+          <a class="btn btn-outline-primary" href="https://sysadmin.pim.gr.jp/" target="_blank" rel="noopener noreferrer" role="button">
+            シス管公式サイト
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
         </div>
       </FeatureCardGridCard>
     </div>
