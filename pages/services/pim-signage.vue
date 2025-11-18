@@ -22,7 +22,7 @@ useHead({
     <ContentHeaderRowGradient>
       <div class="col">
         <h1 class="mb-4">
-          <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" /><br />
+          <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" ><br >
           <span>サイネージ</span>
           <span class="badge rounded-pill text-bg-primary">試験運用</span>
         </h1>
@@ -151,7 +151,7 @@ useHead({
         </div>
       </div>
     </div>
-    <div class="row mt-5 pt-5 border-top" id="tech-info">
+    <div id="tech-info" class="row mt-5 pt-5 border-top">
         <div class="col text-center">
             <h2>技術仕様</h2>
         </div>

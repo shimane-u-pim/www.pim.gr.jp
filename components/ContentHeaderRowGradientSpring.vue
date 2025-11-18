@@ -1,8 +1,8 @@
 <template>
     <div class="row pt-5 pb-5 top-bg-gradation" data-content-header-row>
-        <slot></slot>
+        <slot/>
     </div>
-    <div class="row mb-4"></div>
+    <div class="row mb-4"/>
 </template>
 
 <style scoped>

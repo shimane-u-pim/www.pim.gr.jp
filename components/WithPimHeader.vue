@@ -7,7 +7,7 @@ const props = defineProps({
 
 <template>
     <div>
-        <img :src="image" :alt="imageAlt" class="img-fluid mx-auto d-block" />
+        <img :src="image" :alt="imageAlt" class="img-fluid mx-auto d-block" >
     </div>
 </template>
 

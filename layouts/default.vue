@@ -1,5 +1,5 @@
 <template>
     <NavBar />
-    <slot></slot>
+    <slot/>
     <GlobalFooter />
 </template>

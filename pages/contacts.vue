@@ -28,12 +28,12 @@ useHead({
                     入部・体験希望についてのお問い合わせは、
                     <a href="https://www.g-ipc.shimane-u.ac.jp/service/mail/" target="_blank">
                         島根大学 電子メールサービス
-                        <i class="bi bi-box-arrow-up-right"></i>
+                        <i class="bi bi-box-arrow-up-right"/>
                     </a>
                     のメールアドレスをご利用ください。
                 </p>
                 <ul>
-                    <li><i class="bi bi-envelope me-2"></i>contact &lt;<b>at</b>&gt; pim.gr.jp
+                    <li><i class="bi bi-envelope me-2"/>contact &lt;<b>at</b>&gt; pim.gr.jp
                     </li>
                 </ul>
             </div>
@@ -41,17 +41,17 @@ useHead({
                 <form action="https://contact.pim-shimane.workers.dev/submit" method="POST" enctype="multipart/form-data">
                     <div class="mb-3">
                         <label for="email" class="form-label">メールアドレス: </label>
-                        <input type="email" name="email" id="email" required class="form-control"/>
+                        <input id="email" type="email" name="email" required class="form-control">
                     </div>
                     <div class="mb-3">
                         <label for="name" class="form-label">お名前: </label>
-                        <input type="text" name="name" id="name" required class="form-control" />
+                        <input id="name" type="text" name="name" required class="form-control" >
                     </div>
                     <div class="mb-3">
                         <label for="inquiry" class="form-label">お問い合わせ内容: </label>
-                        <textarea name="content" id="inquiry" required class="form-control" ></textarea>
+                        <textarea id="inquiry" name="content" required class="form-control" />
                     </div>
-                    <div class="cf-turnstile" data-sitekey="0x4AAAAAAAebPItjBa5RF5k7" data-callback="javascriptCallback"></div>
+                    <div class="cf-turnstile" data-sitekey="0x4AAAAAAAebPItjBa5RF5k7" data-callback="javascriptCallback"/>
                     <button type="submit" class="btn btn-primary">
                         送信
                     </button>

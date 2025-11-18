@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+    compatibilityDate: '2025-11-19',
     devtools: { enabled: true },
     vite: {
         vue: {

@@ -15,7 +15,7 @@ useHead({
     <Head>
         <Title>Webサイト製作 with Pim - 島根大学ものづくり部 Pim</Title>
     </Head>
-    <WithPimHeader image="/img/with_pim/web.jpg" imageAlt="Webサイト製作 with Pim" />
+    <WithPimHeader image="/img/with_pim/web.jpg" image-alt="Webサイト製作 with Pim" />
 
     <div class="container mt-5 mb-5">
         <div class="row">
