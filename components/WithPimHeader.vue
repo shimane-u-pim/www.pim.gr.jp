@@ -1,7 +1,13 @@
 <script setup lang="ts">
-const props = defineProps({
-    image: String,
-    imageAlt: String,
+defineProps({
+    image: {
+        type: [String],
+        required: true,
+    },
+    imageAlt: {
+        type: String,
+        required: true,
+    },
 });
 </script>
 
