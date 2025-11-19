@@ -43,7 +43,7 @@ CIでは、Node.jsの`latest`と、`packages.json`に記述されたバージョ
 
 ## お問い合わせフォームについて
 
-お問い合わせフォームはサーバーサイド(not Client JavaScript)で処理し、受け取ったメッセージをWebhookを利用してチャットシステムに送信することで実装しています。
+お問い合わせフォームはクライアントサイドではなくサーバサイドで処理し、受け取ったメッセージをWebhookを利用してチャットシステムに送信することで実装しています。
 詳細は https://github.com/shimane-u-pim/www.pim.gr.jp-contact-form を参照してください。
 現状、閲覧には`sysadmin`ロールか、`website`ロールが必要です。
 
@@ -61,7 +61,7 @@ GitHubフローは、小さな変更を`master`ブランチからフォークし
 完成した段階で`master`へのPull Requestを送信し、責任者の検証後にマージすることで、
 `master`ブランチの内容をある程度安全な状態に保つことができるという物です。
 
-詳細は上記のリンク先を閲覧してください。多分日本語版のサイトはこちらです。
+詳細は上記のリンク先を閲覧してください。一応、以下に日本語版サイトのリンクを示しておきます。
 [GitHub Flow 日本語版](https://docs.github.com/ja/get-started/using-github/github-flow)
 
 また、ブランチルールで`master`へのプッシュは禁止されていますから、
