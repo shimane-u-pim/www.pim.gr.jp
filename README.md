@@ -1,18 +1,98 @@
-# Vue 3 + TypeScript + Vite
+# Pim公式サイト (`www.pim.gr.jp`) リポジトリ
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+このプロジェクトは、Nuxt.jsを利用して作成されています。
+Nuxt.jsはVue.jsを活用した、Webアプリケーションを作成するための素晴らしいフレームワークであり、
+再利用する項目が多い弊部のサイトではかなりの工数削減に寄与しています。
 
-## Recommended IDE Setup
+このプロジェクトではTypeScript及びESLintも活用しています。
+TypeScriptでは型付けを開発時に行うことで、開発時の型に関する問題を防ぐ事が出来ます。
+また、ESLintはコードの正しくない（非推奨な）書き方を是正する機能があり、
+これによりきれいなコードを保つことが出来ます。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+このプロジェクトはCloudflare Pagesを使ってホスティングされています。
+Cloudflare Pagesは、静的サイトを簡単にホスティングするためのサービスであり、
+弊部での利用状況では、無料枠で収まる上、Cloudflare Fonts等の便利機能もあることから、
+こちらのソリューションを活用しています。
 
-## Type Support For `.vue` Imports in TS
+## メインメンテナーとDependabotについて
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+必ずメインとなるWebサイトのメンテナーを決定し、`.github/dependabot.yml`の中にある、
+`assignees`にそのメンテナーのGitHubアカウント名を入力してください。
+ここで言う「アカウント名」とは、ユーザページのURLに載る名前で、表示名ではありません。
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+メンテナーはDependabotからのプルリクエストが飛んできた際には、
+必ず修正後のWebサイトが正常に動くかを確認したのち、マージするか、必要に応じて手動で修正してください。
+スマートフォン表示時のナビゲーションが動作しなくなったり、リンクが正常に動かなくなるなどのトラブルがよく発生します。**必ず確認してください**。
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+特に、メジャーバージョンアップの際には、かなりの苦労を強いられることになると思います。
+必要に応じて、`git log`を漁り、歴代のメンテナーに助けを求めることも検討してください。
+
+## CIについて
+
+このプロジェクトはGitHub Actionsを使ってCIテストを行っています。
+プルリクエストを送信した際や、ブランチにプッシュした後で、自動的にGitHubのRunnerが動作します。
+`Lint and Build`というランナーが正常に動作した場合、あなたのコードはルールに則って記述され、
+テスト環境にて実際にHTMLへの変換が出来たことを意味します。
+
+CIでは、Node.jsの`latest`と、`packages.json`に記述されたバージョンの`pnpm`でプログラムを処理します。
+もしCloudflare Pagesが古いNode.jsに依存するようになったなど、古いバージョンのNode.jsがどうしても必要な場合は、
+手動で`.github/workflows`内のActions設定ファイルを編集してください。
+
+利用する`pnpm`のバージョンが変わった場合は、`packages.json`のバージョンを編集してください。
+`pnpm self-update`コマンドでも多分良い感じに調整してくれそうですが、未検証です。
+
+## お問い合わせフォームについて
+
+お問い合わせフォームはクライアントサイドではなくサーバサイドで処理し、受け取ったメッセージをWebhookを利用してチャットシステムに送信することで実装しています。
+詳細は https://github.com/shimane-u-pim/www.pim.gr.jp-contact-form を参照してください。
+現状、閲覧には`sysadmin`ロールか、`website`ロールが必要です。
+
+このフォームではCloudflare Workersを利用しています。
+無料枠から外れることは無いと思いますが、もしあった場合はフォームを一時的に無効化し、
+メールのみの受付にするなどの対応をお願い致します。
+
+また、人間認証（Captcha）にはCloudflareのTurnstileを利用しています。
+こちらも無料枠で十分だと思います。Cloudflareが有料化しなければ…
+
+## 開発フロー・ブランチ
+
+本リポジトリでは[GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)を利用した開発を行っています。
+GitHubフローは、小さな変更を`master`ブランチからフォークしたブランチで行い、
+完成した段階で`master`へのPull Requestを送信し、責任者の検証後にマージすることで、
+`master`ブランチの内容をある程度安全な状態に保つことができるという物です。
+
+詳細は上記のリンク先を閲覧してください。一応、以下に日本語版サイトのリンクを示しておきます。
+[GitHub Flow 日本語版](https://docs.github.com/ja/get-started/using-github/github-flow)
+
+また、ブランチルールで`master`へのプッシュは禁止されていますから、
+間違って`master`で作業しないでください。
+一応、間違ってmasterにコミットをしまくっても、`git rebase --onto`等を活用すれば
+なんとかなるはずです。多分。
+
+また、ブランチルールを無効にするのは最も愚かで行うべきではない最終手段です。
+詳しい人に気軽に相談してください。特に`git blame`でこのドキュメントや、他のコードを書いた人を見つけ、
+その名の通り責任を取ってしっかりと教えてもらうというのをすると良いでしょう。
+
+## 開発手順
+
+本リポジトリをクローンした後、`pnpm`で依存パッケージをインストールします。
+もし`pnpm`や`Node.js`がインストールされていない場合は、事前にインストールしてください。
+
+```bash
+pnpm install
+```
+
+依存パッケージのインストール後は自由に開発することが出来ますが、開発サーバを立ち上げながら開発することをおすすめします。
+開発サーバはリアルタイムで変更を可視化してくれます。下記コマンドで開発サーバを開くことが出来ます。
+
+```bash
+pnpm run dev
+```
+
+また、開発終了後は必ず次の2コマンドでコードの検証を行ってください。
+開発サーバではTSファイルの検証などが怠惰に行われるため、本番環境でエラーを吐く場合があります。
+
+```bash
+pnpm run lint
+pnpm run generate
+```
