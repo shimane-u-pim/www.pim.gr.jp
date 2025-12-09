@@ -18,7 +18,7 @@
         "nuxt-gtag": "4.1.0"
     },
     "dependencies": {
-        "@nuxtjs/sitemap": "7.4.7",
+        "@nuxtjs/sitemap": "7.4.9",
         "add": "2.0.6",
         "bootstrap": "5.3.8",
         "bootstrap-icons": "1.13.1",
