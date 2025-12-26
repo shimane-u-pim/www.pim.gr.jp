@@ -16,9 +16,9 @@ class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#
                     </li>
                     <li class="nav-item border-end"/>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com/shimane_u_Pim" target="_blank">
-                            <i class="bi bi-twitter"/>
-                            <span class="visually-hidden">Twitter</span>
+                        <a class="nav-link" href="https://x.com/shimane_u_Pim" target="_blank">
+                            <i class="bi bi-twitter-x"/>
+                            <span class="visually-hidden">X (a.k.a. Twitter)</span>
                         </a>
                     </li>
                     <li class="nav-item">
