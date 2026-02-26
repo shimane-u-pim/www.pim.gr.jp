@@ -1,3 +1,5 @@
+<script setup lang="ts">
+</script>
 <template>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -11,6 +13,9 @@ class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#
             </button>
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+                    <li class="nav-item">
+                        <NuxtLink to="/books" class="nav-link">書籍</NuxtLink>
+                    </li>
                     <li class="nav-item">
                         <NuxtLink to="/contacts" class="nav-link">入部・お問い合わせ</NuxtLink>
                     </li>
