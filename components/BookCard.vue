@@ -5,13 +5,14 @@ defineProps<{
   publisher: undefined|string,
   isbn13: undefined|string
   authors: Array<string>,
-  date: Date,
+  date: undefined|Date,
   libraryLinks: Array<{'title': string, 'url': string}>,
   libraryRequests: Array<{'library': string, 'ids': Array<{ 'site': string, 'requestCode': string}>}>
   imageFile: string,
 }>();
 
-const formatDate = (date: Date): string => {
+const formatDate = (date: undefined|Date): string => {
+  if (date === undefined) return "発売日データ提供無し";
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   return `${year}年${month}月`;

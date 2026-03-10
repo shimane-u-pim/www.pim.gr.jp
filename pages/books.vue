@@ -166,7 +166,10 @@ const genNdlRequest = (code: string) => {
       </BookCard>
     </div>
     <div class="row pb-5" id="by-personal">
-      <h2 class="mt-4 pb-5 text-center">Pimメンバー・OBの書籍</h2>
+      <div class="mt-4 pb-5 text-center">
+        <h2>Pimメンバー・OBの書籍</h2>
+        <small>弊部での手続き完了順に掲載しています</small>
+      </div>
       <BookCard
           id="k-fujimura-kirakira-ruby-9784822286392"
           title="小学生から楽しむ きらきらRubyプログラミング"
@@ -199,6 +202,33 @@ const genNdlRequest = (code: string) => {
           <li>Rubyを作った人からのメッセージ</li>
         </ul>
       </BookCard>
+      <BookCard
+          id="happysato-t17-happys1-openscad"
+          title="OSSコードベースCAD「OpenSCAD」を使って軽トラキャンピングカーを作ってみよう!"
+          image-file="/logo/bimi.svg"
+          :authors="['ハッピー佐藤']"
+          :library-links="[
+          ]"
+          :library-requests="[
+          ]"
+      >
+        <p class="card-text">　リモートワークが主流になった今、軽トラにキャンピングカーの機能を持たせてどこでも作業出来るようにするプロジェクトの記録です。</p>
+      </BookCard>
+      <BookCard
+          id="happysato-t18-happys2-store"
+          title="物が多い人のための最小単位法収納法　-箱とデータ管理でつくる、散らからない暮らし-"
+          image-file="/logo/bimi.svg"
+          :authors="['ハッピー佐藤']"
+          :library-links="[
+          ]"
+          :library-requests="[
+          ]"
+      >
+        <p class="card-text">　際限なく増え続ける物品をうまいこと収納するシステムに関する書籍です。</p>
+      </BookCard>
+      <div>
+        <small>書影データは著者である弊部部員およびOBから提供されたものを利用しています。</small>
+      </div>
     </div>
   </div>
 </template>
