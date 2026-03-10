@@ -225,6 +225,15 @@ const genNdlRequest = (code: string) => {
           ]"
       >
         <p class="card-text">　際限なく増え続ける物品をうまいこと収納するシステムに関する書籍です。</p>
+        <p class="card-text">　目次</p>
+        <ul>
+          <li>片付けが不得意な自分と分析</li>
+          <li>最小単位法とは何か</li>
+          <li>実践ステップ</li>
+          <li>タグ作り</li>
+          <li>データベースへの適用</li>
+          <li>インターフェースの構築</li>
+        </ul>
       </BookCard>
       <div>
         <small>書影データは著者である弊部部員およびOBから提供されたものを利用しています。</small>
