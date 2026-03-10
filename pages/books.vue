@@ -52,7 +52,7 @@ const genNdlRequest = (code: string) => {
       <BookCard
           id="202304-pim-notes"
           title="Pim Notes 2023.04"
-          image-file="/img/books/202304-pim-notes.jpg"
+          image-file="/img/books/202304-pim-notes.jpg.webp"
           :authors="['市川 太一', '則重 泰輝', '荒木 優和', '奥原 智史', '田中 豪志']"
           :date="toMonthYear(2023, 4)"
           :library-links="[
@@ -80,7 +80,7 @@ const genNdlRequest = (code: string) => {
       <BookCard 
           id="202310-incident"
           title="夏休み合宿インシデントレポート"
-          image-file="/img/books/202310-incident.jpg"
+          image-file="/img/books/202310-incident.jpg.webp"
           :authors="['荒木 優和', '田中 豪志']"
           :date="toMonthYear(2023, 10)"
           :library-links="[
@@ -113,7 +113,7 @@ const genNdlRequest = (code: string) => {
       <BookCard
           id="202412-pim-notes"
           title="Pim Notes 2024.12"
-          image-file="/img/books/202412-pim-notes.jpg"
+          image-file="/img/books/202412-pim-notes.jpg.webp"
           :authors="['みかど', 'しいたけ', '哲', '豊嶋 拓斗', '市川 太一', '則重 泰輝', '梶岡 響', '荒木 優和']"
           :date="toMonthYear(2024, 12)"
           :library-links="[
@@ -142,7 +142,7 @@ const genNdlRequest = (code: string) => {
       <BookCard
           id="202512-pim-notes"
           title="Pim Notes 2025.12"
-          image-file="/img/books/202512-pim-notes.jpg"
+          image-file="/img/books/202512-pim-notes.jpg.webp"
           :authors="['荒木優和', 'いずもん', 'きぬこたつ', 'しいたけ', 'てつ', '藤村健吾', 'mikado']"
           :date="toMonthYear(2024, 12)"
           :library-links="[
@@ -175,7 +175,7 @@ const genNdlRequest = (code: string) => {
           title="小学生から楽しむ きらきらRubyプログラミング"
           publisher="日経BP"
           isbn13="978-4-8222-8639-2"
-          image-file="/img/books/k-fujimura-kirakira-ruby-9784822286392.jpg"
+          image-file="/img/books/k-fujimura-kirakira-ruby-9784822286392.jpg.webp"
           :authors="['高尾宏治', '藤村健吾', 'まつもとゆきひろ (監修)']"
           :date="toMonthYear(2020, 5)"
           :library-links="[
