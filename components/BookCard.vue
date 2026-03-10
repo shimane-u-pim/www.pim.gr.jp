@@ -2,10 +2,10 @@
 defineProps<{
   id: string,
   title: string,
-  publisher: undefined|string,
-  isbn13: undefined|string
+  publisher?: undefined|string,
+  isbn13?: undefined|string
   authors: Array<string>,
-  date: undefined|Date,
+  date?: undefined|Date,
   libraryLinks: Array<{'title': string, 'url': string}>,
   libraryRequests: Array<{'library': string, 'ids': Array<{ 'site': string, 'requestCode': string}>}>
   imageFile: string,
