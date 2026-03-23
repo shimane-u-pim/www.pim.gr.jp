@@ -12,7 +12,7 @@
         "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
-        "@nuxt/devtools": "3.2.3",
+        "@nuxt/devtools": "3.2.4",
         "@nuxt/eslint": "1.15.2",
         "nuxt": "4.4.2",
         "nuxt-gtag": "4.1.0"
