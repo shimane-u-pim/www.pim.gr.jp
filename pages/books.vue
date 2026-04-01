@@ -146,6 +146,7 @@ const genNdlRequest = (code: string) => {
           :authors="['荒木優和', 'いずもん', 'きぬこたつ', 'しいたけ', 'てつ', '藤村健吾', 'mikado']"
           :date="toMonthYear(2024, 12)"
           :library-links="[
+              {title: 'BOOTH', url: 'https://pim-shimane.booth.pm/items/8135941'},
               {title: '島根県立図書館', url: 'https://www2.library.pref.shimane.lg.jp/opac/switch-detail-iccap.do?bibid=1130929776'},
           ]"
           :library-requests="[
