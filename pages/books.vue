@@ -114,7 +114,7 @@ const genNdlRequest = (code: string) => {
           id="202412-pim-notes"
           title="Pim Notes 2024.12"
           image-file="/img/books/202412-pim-notes.jpg.webp"
-          :authors="['みかど', 'しいたけ', '哲', '豊嶋 拓斗', '市川 太一', '則重 泰輝', '梶岡 響', '荒木 優和']"
+          :authors="['みかど', 'しいたけ', '哲', '豊嶋 択斗', '市川 太一', '則重 泰輝', '梶岡 響', '荒木 優和']"
           :date="toMonthYear(2024, 12)"
           :library-links="[
               {title: 'BOOTH', url: 'https://pim-shimane.booth.pm/items/6447135'},
