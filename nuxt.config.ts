@@ -9,10 +9,6 @@ export default defineNuxtConfig({
       mergeProps: true,
     },
   },
-  css: [
-    "bootstrap/dist/css/bootstrap.min.css",
-    "bootstrap-icons/font/bootstrap-icons.css",
-  ],
   plugins: ["~/plugins/bootstrap.client.ts"],
   app: {
     head: {
@@ -89,7 +85,6 @@ export default defineNuxtConfig({
     id: "i4nzb2fgqy",
   },
   eslint: {
-    // Enables ESLint check in dev server.
-    checker: true,
+    checker: false,
   },
 });

@@ -15,6 +15,7 @@
         "@nuxt/devtools": "3.2.4",
         "@nuxt/eslint": "1.15.2",
         "nuxt": "4.4.2",
+        "@types/bootstrap": "^5.2.10",
         "nuxt-gtag": "4.1.0"
     },
     "dependencies": {
