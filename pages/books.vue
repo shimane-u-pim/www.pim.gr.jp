@@ -204,8 +204,8 @@ const genNdlRequest = (code: string) => {
       </BookCard>
       <BookCard
           id="happysato-t17-happys1-openscad"
-          title="OSSコードベースCAD「OpenSCAD」を使って軽トラキャンピングカーを作ってみよう!"
-          image-file="/logo/bimi.svg"
+            title="OSSコードベースCAD「OpenSCAD」を使って軽トラキャンピングカーを作ってみよう!"
+          image-file="/img/books/happysato-t17-happys1-openscad.png.webp"
           :authors="['ハッピー佐藤']"
           :library-links="[
           ]"
@@ -217,7 +217,7 @@ const genNdlRequest = (code: string) => {
       <BookCard
           id="happysato-t18-happys2-store"
           title="物が多い人のための最小単位法収納法　-箱とデータ管理でつくる、散らからない暮らし-"
-          image-file="/logo/bimi.svg"
+          image-file="/img/books/happysato-t18-happys2-store.png.webp"
           :authors="['ハッピー佐藤']"
           :library-links="[
           ]"
