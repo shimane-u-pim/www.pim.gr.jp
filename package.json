@@ -12,18 +12,18 @@
         "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
-        "@nuxt/devtools": "3.2.4",
+        "@nuxt/devtools": "4.0.0-alpha.4",
         "@nuxt/eslint": "1.15.2",
-        "nuxt": "4.4.2",
         "@types/bootstrap": "^5.2.10",
+        "nuxt": "4.4.4",
         "nuxt-gtag": "4.1.0"
     },
     "dependencies": {
-        "@nuxtjs/sitemap": "7.6.0",
+        "@nuxtjs/sitemap": "8.0.15",
         "add": "2.0.6",
         "bootstrap": "5.3.8",
         "bootstrap-icons": "1.13.1",
         "nuxt-microsoft-clarity": "0.1.0"
     },
-    "packageManager": "pnpm@10.26.2"
+    "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8"
 }

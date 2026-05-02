@@ -47,7 +47,7 @@ const genNdlRequest = (code: string) => {
         </p>
       </div>
     </ContentHeaderRow>
-    <div class="row pt-2 pb-3" id="by-pim">
+    <div id="by-pim" class="row pt-2 pb-3">
       <h2 class="mt-4 pb-5 text-center">Pim名義の書籍</h2>
       <BookCard
           id="202304-pim-notes"
@@ -166,7 +166,7 @@ const genNdlRequest = (code: string) => {
         </ul>
       </BookCard>
     </div>
-    <div class="row pb-5" id="by-personal">
+    <div id="by-personal" class="row pb-5">
       <div class="mt-4 pb-5 text-center">
         <h2>Pimメンバー・OBの書籍</h2>
         <small>弊部での手続き完了順に掲載しています</small>
