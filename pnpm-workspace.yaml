@@ -1,3 +1,12 @@
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  unrs-resolver: true
+minimumReleaseAgeExclude:
+  - '@nuxt/devtools-kit@4.0.0-alpha.13'
+  - '@nuxt/devtools@4.0.0-alpha.13'
+  - '@nuxtjs/sitemap@8.4.0'
+  - nuxtseo-shared@5.3.14
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
