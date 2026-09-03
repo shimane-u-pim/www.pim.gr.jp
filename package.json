@@ -12,14 +12,14 @@
         "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
-        "@nuxt/devtools": "4.0.0-alpha.9",
-        "@nuxt/eslint": "1.16.0",
+        "@nuxt/devtools": "4.0.0-alpha.16",
+        "@nuxt/eslint": "1.17.0",
         "@types/bootstrap": "5.2.11",
-        "nuxt": "4.5.1",
-        "nuxt-gtag": "4.1.0"
+        "nuxt": "4.5.2",
+        "nuxt-gtag": "5.0.0"
     },
     "dependencies": {
-        "@nuxtjs/sitemap": "8.3.0",
+        "@nuxtjs/sitemap": "8.5.0",
         "add": "2.0.9",
         "bootstrap": "5.3.8",
         "bootstrap-icons": "1.13.1",
