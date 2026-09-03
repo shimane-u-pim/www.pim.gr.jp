@@ -23,6 +23,19 @@ useHead({
             <Title>入部・お問い合わせ - 島根大学ものづくり部 Pim</Title>
         </Head>
         <div class="container">
+            <div class="alert alert-warning mt-4" role="alert">
+                <h4 class="alert-heading fw-bold">フォームによるお問い合わせ受付終了のお知らせ</h4>
+                <p class="mb-0">
+                    島根大学ものづくり部Pimの解散に伴い、本Webサイトからのフォーム送信およびメールによるお問い合わせ受付は終了いたしました。
+                </p>
+                <hr>
+                <p class="mb-0">
+                    今後のご連絡や確認事項につきましては、公式Twitter（新X）のダイレクトメッセージまでお願いいたします。<br>
+                    公式X: <a href="https://x.com/shimane_u_Pim" target="_blank" rel="noopener noreferrer">@shimane_u_Pim</a>
+                </p>
+            </div>
+        </div>
+        <div v-if="false" class="container">
             <ContentHeaderRow>
                 <div class="col">
                     <h1>入部・お問い合わせ</h1>
