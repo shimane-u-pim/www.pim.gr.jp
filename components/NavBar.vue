@@ -17,7 +17,7 @@ class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#
                         <NuxtLink to="/books" class="nav-link">書籍</NuxtLink>
                     </li>
                     <li class="nav-item">
-                        <NuxtLink to="/contacts" class="nav-link">入部・お問い合わせ</NuxtLink>
+                        <NuxtLink to="/contacts" class="nav-link">お問い合わせ</NuxtLink>
                     </li>
                     <li class="nav-item border-end"/>
                     <li class="nav-item">

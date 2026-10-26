@@ -4,16 +4,23 @@
       <div class="col">
         <h1 class="mb-4">
           <img src="/logo/pimlogo-nosmn.svg" alt="Pim" height="40" ><br >
-          <span>新しいものづくりのコミュニティ</span>
+          <span>解散のお知らせ</span>
         </h1>
-        <p class="mb-0">ものづくりに関する知識と技術を共有する、島根大学公認の部活動です。</p>
-        <div class="mt-4">
-          <router-link class="btn btn-outline-primary me-2" to="/contacts" role="button">入部する</router-link>
+        <p class="mb-3">島根大学ものづくり部Pimは、2026/9/30付で解散いたしました。</p>
+        <p class="mb-0 text-muted">
+            これまでご協力・ご支援いただいた皆様、ならびに活動に参加いただいた皆様に心より感謝申し上げます。<br >
+            本ウェブサイトは、過去の活動記録（アーカイブ）として掲載しております。
+        </p>
+         <div class="mt-4">
+          <!-- <router-link class="btn btn-outline-primary me-2" to="/contacts" role="button">入部する</router-link> -->
           <router-link class="btn btn-outline-secondary" to="/contacts" role="button">お問い合わせ</router-link>
         </div>
       </div>
     </ContentHeaderRowGradientSpring>
-    <div class="row pt-5">
+    <div class="row">
+        <div class="col-12 mb-4">
+            <h2 class="h4 pb-2">活動実績・取り組み（アーカイブ）</h2>
+        </div>
       <FeatureCardGridCard>
         <div class="card-body">
           <FeatureCardGridCardEmoji>⚡️</FeatureCardGridCardEmoji>
@@ -105,7 +112,7 @@
         </div>
       </FeatureCardGridCard>
     </div>
-    <div class="row mt-5 pt-5 mb-5 border-top">
+    <!-- <div class="row mt-5 pt-5 mb-5 border-top">
       <div class="col text-center">
         <h2>さあ、参加しよう</h2>
         <p>
@@ -120,7 +127,7 @@
           <router-link class="btn btn-outline-secondary" to="/contacts" role="button">お問い合わせ</router-link>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
