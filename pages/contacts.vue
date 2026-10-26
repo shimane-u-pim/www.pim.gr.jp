@@ -30,7 +30,7 @@ useHead({
                 </p>
                 <hr>
                 <p class="mb-0">
-                    今後のご連絡や確認事項につきましては、公式Twitter（新X）のダイレクトメッセージまでお願いいたします。<br>
+                    今後のご連絡や確認事項につきましては、contact[a]pim.gr.jp ([a]を@に置換)までお願いいたします。<br>
                     公式X: <a href="https://x.com/shimane_u_Pim" target="_blank" rel="noopener noreferrer">@shimane_u_Pim</a>
                 </p>
             </div>
